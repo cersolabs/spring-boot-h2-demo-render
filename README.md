@@ -10,27 +10,27 @@ Desarrollar una API REST para la gestión de tareas utilizando Spring Boot. La a
   * `id` (Long): Identificador único de la tarea.
   * `title` (String): Título de la tarea.
   * `description` (String): Descripción de la tarea.
-  * `status` (enum): Estado de la tarea (TODO, IN_PROGRESS, DONE).
+  * `status` (enum): Estado de la tarea (`TODO`, `IN_PROGRESS`, `DONE`).
   * `createdAt` (Date): Fecha y hora de creación de la tarea.
   * `updatedAt` (Date): Fecha y hora de la última actualización de la tarea.
     
 **2. Endpoints API:**
 
-* POST /tasks: Crear una nueva tarea.
-* GET /tasks: Obtener todas las tareas.
-* GET /tasks/{id}: Obtener una tarea por su id.
-* PUT /tasks/{id}: Actualizar una tarea existente.
-* DELETE /tasks/{id}: Eliminar una tarea por su id.
+* `POST /tasks`: Crear una nueva tarea.
+* `GET /tasks`: Obtener todas las tareas.
+* `GET /tasks/{id}`: Obtener una tarea por su id.
+* `PUT /tasks/{id}`: Actualizar una tarea existente.
+* `DELETE /tasks/{id}`: Eliminar una tarea por su id.
 
 **3. Persistencia:**
 
 * Utiliza H2 como base de datos en memoria para la persistencia de datos.
   
 **4. Documentación con Swagger:**
-* Incluir Dependencias: Asegúrate de agregar las dependencias de Swagger en tu archivo pom.xml o build.gradle.
-* Configuración: Configura Swagger para escanear tus controladores y generar la documentación automáticamente.
-* Acceso a Swagger UI: La documentación generada debe ser accesible en http://localhost:8080/swagger-ui/.
-* Personalización Opcional: Puedes personalizar la documentación usando anotaciones como @Api, @ApiOperation, y otros.
+* `Incluir Dependencias`: Asegúrate de agregar las dependencias de Swagger en tu archivo pom.xml.
+* `Configuración`: Configura Swagger para escanear tus controladores y generar la documentación automáticamente.
+* `Acceso a Swagger UI`: La documentación generada debe ser accesible en http://localhost:8080/swagger-ui/.
+* `Personalización Opcional`: Puedes personalizar la documentación usando anotaciones como @Api, @ApiOperation, y otros.
 
 **5. Pruebas:**
 * Realiza pruebas de los endpoints utilizando Postman o directamente desde la interfaz de Swagger UI. Documenta estas pruebas y adjunta capturas de pantalla que demuestren el funcionamiento correcto de la API.
@@ -47,5 +47,5 @@ Desarrollar una API REST para la gestión de tareas utilizando Spring Boot. La a
 **Entrega:**
 * Sube el código fuente de la aplicación a un repositorio en GitHub.
 * Incluye un enlace a la API desplegada en Render.
-* Asegúrate de que el repositorio sea público y que el README.md esté bien documentado.
+* Asegúrate de que el repositorio sea público y que el `README.md` esté bien documentado.
 * Fecha límite de entrega: [Fecha de entrega].
