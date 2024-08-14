@@ -29,23 +29,23 @@ Desarrollar una API REST para la gestión de tareas utilizando Spring Boot. La a
 **4. Documentación con Swagger:**
 * `Incluir Dependencias`: Asegúrate de agregar las dependencias de Swagger en tu archivo pom.xml.
 * `Configuración`: Configura Swagger para escanear tus controladores y generar la documentación automáticamente.
-* `Acceso a Swagger UI`: La documentación generada debe ser accesible en http://localhost:8080/swagger-ui/.
+* `Acceso a Swagger UI`: La documentación generada debe ser accesible en [http://localhost:8080/swagger-ui/](http://localhost:8080/swagger-ui/index.html).
 * `Personalización Opcional`: Puedes personalizar la documentación usando anotaciones como @Api, @ApiOperation, y otros.
 
 **5. Pruebas:**
 * Realiza pruebas de los endpoints utilizando Postman o directamente desde la interfaz de Swagger UI. Documenta estas pruebas y adjunta capturas de pantalla que demuestren el funcionamiento correcto de la API.
 
 **6. Despliegue:**
-* Configura y despliega la aplicación en Render. Proporciona el enlace público de la API desplegada.
+* Configuración y despliegue de la aplicación en Render. Proporciona el enlace público de la API desplegada.
 * Asegúrate de que Swagger UI sea accesible desde la API desplegada en Render.
   
 **7. Documentación del Proyecto:**
 
-* Crea un archivo README.md en el repositorio donde expliques cómo ejecutar la aplicación localmente, cómo utilizar la API, cómo fue desplegada en Render, y cómo acceder a la documentación de Swagger.
-** Incluye capturas de pantalla y descripciones de las pruebas realizadas con Postman o Swagger UI.
+* Crea un archivo README.md en el repositorio donde explicas cómo ejecutar la aplicación localmente, cómo utilizar la API, cómo fue desplegada en Render, y cómo acceder a la documentación de Swagger.
+** Incluir capturas de pantalla y descripciones de las pruebas realizadas con Postman o Swagger UI.
 
 **Entrega:**
-* Sube el código fuente de la aplicación a un repositorio en GitHub.
-* Incluye un enlace a la API desplegada en Render.
-* Asegúrate de que el repositorio sea público y que el `README.md` esté bien documentado.
-* Fecha límite de entrega: [Fecha de entrega].
+* Subi el código fuente de la aplicación a un repositorio en GitHub.
+* Incluir un enlace a la API desplegada en Render.
+* Asegurate de que el repositorio sea público y que el `README.md` esté bien documentado.
+* Fecha límite de entrega:.
